@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd"
+         updateCheck="false">
+<!-- cache directory -->
+<!--    <diskStore path="D:\my code\ehcache"/>-->
+<!--    120 s overdue-->
+    <cache
+        name="SmsCodeSpace"
+        eternal="false"
+        diskPersistent="false"
+        maxElementsInMemory="1000"
+        overflowToDisk="false"
+        timeToIdleSeconds="120"
+        timeToLiveSeconds="120"
+        memoryStoreEvictionPolicy="LRU"/>
+
+    <cache
+            name="VenueCapacitySpace"
+            eternal="false"
+            diskPersistent="false"
+            maxElementsInMemory="1000"
+            overflowToDisk="false"
+            timeToIdleSeconds="300"
+            timeToLiveSeconds="300"
+            memoryStoreEvictionPolicy="LRU"/>
+<!--    <cache-->
+<!--            name="peopleInfoSpace"-->
+<!--            eternal="false"-->
+<!--            diskPersistent="false"-->
+<!--            maxElementsInMemory="1000"-->
+<!--            overflowToDisk="false"-->
+<!--            timeToIdleSeconds="300"-->
+<!--            timeToLiveSeconds="300"-->
+<!--            memoryStoreEvictionPolicy="LRU"/>-->
+    <cache
+            name="adminInfoSpace"
+            eternal="false"
+            diskPersistent="false"
+            maxElementsInMemory="1000"
+            overflowToDisk="false"
+            timeToIdleSeconds="300"
+            timeToLiveSeconds="300"
+            memoryStoreEvictionPolicy="LRU"/>
+</ehcache>

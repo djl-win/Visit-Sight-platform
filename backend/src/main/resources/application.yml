@@ -1,0 +1,42 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /5619
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db_museum
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+# cache tool
+  cache:
+    type: ehcache
+    ehcache:
+      #configuration file name
+      config: classpath:ehcache.xml
+  #jpa config
+  jpa:
+    database: mysql #database type
+    show-sql: true #show sql statement
+    hibernate:
+      ddl-auto: update # Hibernate ddl auto
+      naming:
+        #Remove the hump naming rule, sometimes he will convert your mapping automatically,studentID == student_id
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    open-in-view: false # address warn : spring.jpa.open-in-view is enabled by default
+
+  #config timer task thread numbers
+  #https://blog.csdn.net/Alian_1223/article/details/120455623
+  task:
+    execution:
+      pool:
+        core-size: 8
+        max-size: 10
+        #queue-capacity: 10
+        #keep-alive: 60
+      thread-name-prefix: museum_
+      # 应用关闭时，是否等待定时任务执行完成
+      shutdown:
+        await-termination: true

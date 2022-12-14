@@ -1,0 +1,14 @@
+.item{
+    font-family: "IBM Plex Sana Thai Looped", sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 0px 2px #c4c4c4;
+    display: flex;
+    padding: 6px 10px 6px 10px;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
+.icon{
+    margin-right: 0.5rem;
+    margin-top: 6px
+}

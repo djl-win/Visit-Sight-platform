@@ -1,0 +1,52 @@
+.RealTimeVisitorPaper {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+}
+
+.RealTimeVisitorPaperOne {
+
+    margin-right: 80px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #202224;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.RealTimeVisitorPaperTwo {
+    margin-top: 10px;
+    margin-left: -120px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    color: #202224;
+}
+.TotalVisitorPaperTwo {
+    margin-top: 10px;
+    margin-left: -160px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    color: #202224;
+}
+
+.RealTimeVisitorPaperThree{
+
+    color: #606060;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: flex;
+    margin-top: 10px;
+}
+.greenFont{
+    color: green;
+}
+
+.RedFont{
+    color: red;
+}

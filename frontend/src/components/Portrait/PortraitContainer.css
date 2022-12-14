@@ -1,0 +1,26 @@
+.RealTimeVisitorPaper {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+}
+#button1{
+    background-color: #E4E4FF;
+}
+#button2{
+    background-color: #D9F7E7;
+}
+#button3{
+    background: #FEF2D6;
+}
+.PortaitText{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    color: #202224;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+}
+.PortraitPaper{
+    width: 400%;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+}
