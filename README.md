@@ -1,6 +1,3 @@
-# Note
-The project is not yet open source, some details are as follows, if necessary, please contact day.dong99@yahoo.com
-
 # Visit-Sight-platform
 
 - This project is a visualisation platform implemented by Springboot + SpringMvc + Hibernate + Mysql, and the frontend was implemented by React + MaterialUI.
