@@ -119,6 +119,6 @@
 
 ## License
 
-This project is licensed under the GNU GPLv3 License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the GNU GPLv3 License - see the [LICENSE](https://github.com/djl-win/Visit-Sight-platform/blob/main/LICENSE) file for details.
 
 
