@@ -117,5 +117,8 @@
 ![d29150aaeb9552429c548ed36a40f86](https://user-images.githubusercontent.com/75836965/200226524-e01e04af-4c9b-483d-a971-1f539d849947.jpg)
 
 
+## License
+
+This project is licensed under the GNU GPLv3 License - see the [LICENSE.md](LICENSE.md) file for details.
 
 
